@@ -20,6 +20,9 @@ reward_comment: 我知道是不会有人点的，但万一有人想不开呢？
 wechatpay: /images/rewardImages/wechat-reward-image.jpg
 alipay: /images/rewardImages/alipay-reward-image.jpg
 
+# 显示文章更新时间
+display_updated: true
+
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
