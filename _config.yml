@@ -87,7 +87,7 @@ plugin:
 
 theme: next
 
-duoshuo_shortname: zhangZack
+# duoshuo_shortname: zhangZack
 baidu_analytics: c07ec08bdf31cf57bfb00a1171476f16
 
 search:
