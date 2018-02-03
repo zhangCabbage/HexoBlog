@@ -19,7 +19,6 @@ root: /
 permalink: :year/:title.html
 permalink_defaults:
 
-
 google_site_verification: YVqd2K63w6S4Xo25ZVnKPmX5BSKQjeQxXr-Yx-1f6SY
 baidu_site_verification: 92Fke4Dnyi
 
@@ -34,6 +33,7 @@ baidu_url_submit:
   host: zhangcabbage.cn ## 在百度站长平台中注册的域名
   token: AyTQHwYu3WtrFds4 ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+
 
 # Directory
 source_dir: source
@@ -60,6 +60,31 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+#RSS订阅
+plugin:
+  hexo-generator-feed
+
+baidu_analytics: c07ec08bdf31cf57bfb00a1171476f16
+
+# Local search
+local_search:
+  enable: true
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Category & Tag
 default_category: uncategorized
@@ -81,20 +106,15 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#RSS订阅
-plugin:
-  hexo-generator-feed
-
 theme: next
 
-# duoshuo_shortname: zhangZack
-baidu_analytics: c07ec08bdf31cf57bfb00a1171476f16
+baidushare: true #百度分享功能
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# Security
+## Docs: https://github.com/MikeCoder/hexo-blog-encrypt
+encrypt:
+  enable: true
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
