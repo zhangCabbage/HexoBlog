@@ -128,6 +128,7 @@ scheme: Gemini
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/zhangCabbage || github
+  微博: http://weibo.com/u/3219832322 || weibo
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -151,6 +152,9 @@ links_layout: block
 links:
   Coolshell: http://coolshell.cn/
   Matrix67: http://www.matrix67.com/blog/
+  阿里中间件团队: http://jm.taobao.org/
+  kennethreitz: https://www.kennethreitz.org/
+  小土刀: http://wdxtub.com/
   红绿鲤鱼与驴: https://shinpachi8.github.io/
   刘未鹏: http://mindhacks.cn/
 

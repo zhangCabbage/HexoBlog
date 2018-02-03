@@ -19,6 +19,7 @@
     "hexo-generator-seo-friendly-sitemap": "0.0.21",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-neat": "^1.0.4",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",

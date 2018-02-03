@@ -108,7 +108,25 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+
 baidushare: true #百度分享功能
+
+## hexo-neat页面压缩
+neat_enable: true 
+neat_html:
+  enable: true
+  exclude: 
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
 
 # Security
 ## Docs: https://github.com/MikeCoder/hexo-blog-encrypt
