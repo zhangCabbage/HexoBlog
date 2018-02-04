@@ -21,7 +21,7 @@ password:
 由于已对`theme`进行深度定制，加上`next`中配置文件`_config.yml`已被反复修改配置，直接更新会覆盖已有配置，所以`hexo`主题更新比较困难，新版`next`已有相应解决办法。
 2. 增加文章详情：更新时间、字数统计、阅读时长
 ![Alt text](/images/technology/hexo_1.png "")
-3. 修改文章评论系统：多说 -> liveRe
+3. 修改文章评论系统：`多说` -> `liveRe`
 ![Alt text](/images/technology/hexo_2.png "")
 4. 博客底部增加浏览[`uv`](https://baike.baidu.com/item/UV/59745)和[`pv`](https://baike.baidu.com/item/pv/402?fr=aladdin)，并隐藏`hexo强力驱动`
 ![Alt text](/images/technology/hexo_3.png "")
